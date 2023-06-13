@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "includeOrderNumber": false,
+    "title": "Manejo de la aplicación",
+    "subject": "Manejo de la aplicación",
+    "body": "Escribir aquí los inconvenientes que tiene al utilizar la aplicación."
+  },
+  {
+    "id": 2,
+    "includeOrderNumber": true,
+    "title": "Estado del pedido",
+    "subject": "Estado del pedido N° {id}",
+    "body": "Indicar el estado del pedido N° {id}"
+  },
+  {
+    "id": 4,
+    "includeOrderNumber": false,
+    "title": "Consulta de productos / stock",
+    "subject": "Consulta de productos / stock",
+    "body": "Quisiera saber si tienen en stock los siguientes productos:"
+  },
+  {
+    "id": 5,
+    "includeOrderNumber": false,
+    "title": "Horario de atención",
+    "subject": "Horario de atención",
+    "body": "Quisiera saber cuál es el horario de atención de las boticas ubicadas en el distrito de:"
+  },
+  {
+    "id": 6,
+    "includeOrderNumber": false,
+    "title": "Sugerencias",
+    "subject": "Sugerencias",
+    "body": "Escribir su sugerencia aquí:"
+  }
+]

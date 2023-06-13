@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background_light"
+    tools:context=".presentation.feature.authentication.welcome.infrastructure.ui.WelcomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:background="@drawable/ic_elipse"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_logo_kotlin"
+            android:contentDescription="@null"/>
+
+        <!--<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_brand_text"
+            android:layout_marginStart="16dp"
+            android:contentDescription="@null"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="30sp"
+            android:textFontWeight="700"
+            android:textColor="@color/text_color_detail"
+            android:text="Chambea"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <online.transporteari.chambea.presentation.common.widget.CustomButton
+            android:id="@+id/btnLoginFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_button_facebook"
+            android:drawableStart="@drawable/ic_facebook"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:stateListAnimator="@null"
+            android:text="@string/login_facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:typeFontButton="Regular"
+            tools:targetApi="m" />
+
+
+        <online.transporteari.chambea.presentation.common.widget.CustomButton
+            android:id="@+id/btnLoginGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/selector_button_google"
+            android:drawableStart="@drawable/ic_google"
+            android:drawablePadding="16dp"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:stateListAnimator="@null"
+            android:text="@string/login_google"
+            android:textAllCaps="false"
+            android:textColor="#111111"
+            android:textSize="14sp"
+            app:typeFontButton="Regular"
+            tools:targetApi="m" />
+
+        <online.transporteari.chambea.presentation.common.widget.CustomButton
+            android:id="@+id/btnLoginApple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/selector_button_apple"
+            android:drawableStart="@drawable/ic_apple"
+            android:drawablePadding="16dp"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:stateListAnimator="@null"
+            android:text="@string/login_apple"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:typeFontButton="Regular"
+            tools:targetApi="m" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:targetApi="m">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_link_web" />
+
+        <online.transporteari.chambea.presentation.common.widget.CustomTextView
+            android:id="@+id/tvwLinkWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:text="@string/desarrollado_por_grupo_percy"
+            android:textColor="@color/blue_light"
+            android:textSize="14sp"
+            app:typeFontText="Bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

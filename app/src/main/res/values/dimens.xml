@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="default_button_dp">46dp</dimen>
+    <dimen name="spinner_height">41dp</dimen>
+
+    <dimen name="product_image_height">71dp</dimen>
+    <dimen name="product_image_width">93dp</dimen>
+    <dimen name="product_image_margin_top">15dp</dimen>
+    <dimen name="product_image_margin_left">7dp</dimen>
+    <dimen name="product_image_margin_right">8dp</dimen>
+
+    <dimen name="swipe_placeholder_width">100dp</dimen>
+    <dimen name="swipe_placeholder_height">18dp</dimen>
+    <dimen name="swipe_placeholder_margin">4dp</dimen>
+    <dimen name="swipe_placeholder_large_width">200dp</dimen>
+    <dimen name="swipe_placeholder_corner">10dp</dimen>
+
+    <dimen name="sizeShopingCard">18sp</dimen>
+    <dimen name="label1">18sp</dimen>
+    <dimen name="label2">24sp</dimen>
+    <dimen name="label3">20sp</dimen>
+
+    <!-- Buttons -->
+    <dimen name="button_padding_vertical">10dp</dimen>
+    <dimen name="button_padding_horizontal">8dp</dimen>
+    <dimen name="button_radius">16dp</dimen>
+
+
+    <!-- Tiny Buttons -->
+    <dimen name="button_tiny_padding_vertical">3dp</dimen>
+    <dimen name="button_tiny_padding_horizontal">3dp</dimen>
+    <dimen name="button_tiny_radius">8dp</dimen>
+
+    <!-- EditText -->
+    <dimen name="edt_input_radius">16dp</dimen>
+
+    <!-- Banner Card -->
+    <dimen name="cardview_radius">16dp</dimen>
+
+    <!-- Tag Checkout -->
+    <dimen name="tag_radius">3dp</dimen>
+    <dimen name="tag_padding_vertical">4dp</dimen>
+    <dimen name="tag_padding_horizontal">9dp</dimen>
+    <dimen name="tag_text_size">8sp</dimen>
+
+    <!-- PricesView -->
+    <dimen name="pv_crossed_out_price_sp">12sp</dimen>
+    <dimen name="pv_promotional_price_sp">16sp</dimen>
+    <dimen name="pv_specific_discount_price_sp">16sp</dimen>
+    <dimen name="pv_icon_height">18dp</dimen>
+    <dimen name="pv_icon_width">24dp</dimen>
+
+    <dimen name="pv_icon_tiny_height">12dp</dimen>
+    <dimen name="pv_icon_tiny_width">16dp</dimen>
+
+
+
+
+    <!-- Taxi-->
+    <dimen name="drawer_width">300dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="app_taxi_activity_horizontal_margin">16dp</dimen>
+    <dimen name="app_taxi_activity_vertical_margin">16dp</dimen>
+    <dimen name="app_taxi_card_margin">10dp</dimen>
+    <dimen name="app_taxi_fab_margin_right">26dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="app_taxi_spacing_small">3dp</dimen>
+    <dimen name="app_taxi_spacing_xsmall">2dp</dimen>
+    <dimen name="app_taxi_spacing_medium">4dp</dimen>
+    <dimen name="app_taxi_spacing_regular">6dp</dimen>
+    <dimen name="app_taxi_spacing_middle">10dp</dimen>
+    <dimen name="app_taxi_spacing_large">16dp</dimen>
+    <dimen name="app_taxi_spacing_mlarge">20dp</dimen>
+    <dimen name="app_taxi_spacing_xlarge">32dp</dimen>
+
+    <dimen name="app_taxi_elevation_low">9dp</dimen>
+    <dimen name="app_taxi_elevation_high">12dp</dimen>
+    <dimen name="app_taxi_status_bar_height">25dp</dimen>
+    <dimen name="app_taxi_fab_margin">16dp</dimen>
+
+    <dimen name="app_taxi_recycler_item_size">192dp</dimen>
+    <dimen name="app_taxi_class_image_size">40dp</dimen>
+
+    <dimen name="app_bar_layout">56dp</dimen>
+
+</resources>

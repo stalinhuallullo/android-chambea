@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--s-->
+    <color name="colorPrimary">#18924F</color>
+    <color name="colorPrimaryDark">#086b35</color>
+    <color name="colorPrimaryContrast">#fbe44a</color>
+    <color name="colorSecondaryContrast">#18924F</color>
+    <color name="colorSecondaryNew">#007CFF</color>
+
+    <color name="light_grey">#b5b5b5</color>
+    <color name="light">#f2f2f2</color>
+    <color name="grey_dark">#808080</color>
+    <color name="grey_dark_2">#7e7e7f</color>
+    <color name="error_red">#ff7272</color>
+    <color name="gray">#dfdfdf</color>
+    <color name="grey_background">#eeeeee</color>
+    <color name="beige">#f4f2ea</color>
+    <color name="gray_light">#555555</color>
+    <color name="text_dark_grey">#464747</color>
+    <color name="text_light_grey">#9c9c9c</color>
+    <color name="text_expandable_grey">#747474</color>
+    <color name="chalk_zeplin">#f4f2ea</color>
+    <color name="green_order_status">#09c600</color>
+    <color name="red_order_status">#f81818</color>
+    <color name="yellow_promotion">#fffbca</color>
+    <color name="grey_term">#444444</color>
+    <color name="grey_zeplin_dark">#424343</color>
+    <color name="orange_zeplin">#ed491c</color>
+    <color name="red_terms">#fa4a2d</color>
+    <color name="yellow_zeplin">#ffe200</color>
+    <color name="product_detail_description">#ccaaaaaa</color>
+    <color name="product_detail_green">#0a8843</color>
+    <color name="spinner_grey">#f3f3f3</color>
+    <color name="spinner_text_color">#858585</color>
+    <color name="product_price_green">#007e38</color>
+    <color name="active_order_title">#d919381f</color>
+    <color name="order_history_date_black">#d9000000</color>
+    <color name="restore_password_text">#4e4e4e</color>
+    <color name="payment_method_selected">#3c3c3e</color>
+    <color name="categories_description">#5b5b5b</color>
+    <color name="resume_car_payment_green">#d2ebeb</color>
+    <color name="resume_car_paymet_black_text">#4a4a4a</color>
+    <color name="resume_car_payment_red">#d37676</color>
+    <color name="resume_car_payment_gray">#9b9b9b</color>
+    <color name="black_text">#4a4a4a</color>
+    <color name="black_text_selected">#4a4a4a</color>
+    <color name="white_opt">#f6f6f6</color>
+    <color name="gray_text">#9b9b9b</color>
+    <color name="blue_select_reference_orders">#6cbebd</color>
+    <color name="faq_sections_background">#f5edd2</color>
+    <color name="faq_section_item_background">#f4f2ea</color>
+    <color name="question_item_divider">#bdbec0</color>
+    <color name="gray_separator">#d1d1d1</color>
+    <color name="green_payment_resume">#22a18d</color>
+    <color name="yellow_payment_resume">#f5cd2d</color>
+    <color name="expandable_payment_resume">#f7f6ec</color>
+    <color name="product_item_resume_background">#fffff6</color>
+    <color name="product_item_resume_presentation">#aaaaaa</color>
+    <color name="linear_filter">#f0eeeb</color>
+    <color name="yello_alert_cart_resume">#feea81</color>
+    <color name="pop_up_title">#41bf7a</color>
+    <color name="disabled_gray">#e1e0e1</color>
+    <color name="white_transparent">#64ffffff</color>
+    <color name="aquamarine">#52cecc</color>
+    <color name="eta_label_color">#4a4a4a</color>
+    <color name="return_cash_text_color">#999999</color>
+    <color name="total_cost_background_color">#cbf1f0</color>
+    <color name="transparent_background">#00FFFFFF</color>
+    <color name="no_stock_red">#d0021b</color>
+    <color name="welcome_warining">#d57b7b</color>
+    <color name="gray_border">#c9c9c9</color>
+    <color name="green_order_confirmation">#41BF7A</color>
+    <color name="green_alert">#00a749</color>
+    <color name="gray_status">#d8d8d8</color>
+    <color name="gray_status_text">#8C8C8C</color>
+    <color name="gray_active_order1">#757575</color>
+    <color name="gray_road2">#e3e3e3</color>
+    <color name="activeorder_alert">#ff4200</color>
+    <color name="gray_alert_activeorder">#dddde5</color>
+    <color name="alert_address_background">#FFE2C9</color>
+    <color name="alert_address_background_2">#e45959</color>
+    <color name="alert_address_text_color">#875954</color>
+    <color name="gray_button_dissabled">#B6B6B6</color>
+    <color name="gray_discount_label">#666666</color>
+    <color name="gray_dark_alfa">#9B9B9B</color>
+    <color name="lemon_green">#f3ffe8</color>
+    <color name="text_min_purchase">#737373</color>
+    <color name="text_min_purchase_strong">#434243</color>
+    <color name="lbl_color_stock">#e10000</color>
+    <color name="gray_light_refer">#EAECF0</color>
+    <color name="green_location">#1ab15e</color>
+    <color name="red_label_discount">#ff0e0e</color>
+    <color name="red_location">#f65d5d</color>
+    <color name="red_warning">#ff0000</color>
+    <color name="blue_light">#007CFF</color>
+    <color name="gray_light_opt">#939393</color>
+    <color name="color_address">#ffe200</color>
+    <color name="color_active_order">#F7E71D</color>
+    <color name="color_active_order_text">#18924F</color>
+    <color name="color_active_order_cancel">#52cecc</color>
+    <color name="color_active_order_line">#41bf7a</color>
+    <color name="color_gray_home">#F3F4F7</color>
+    <color name="color_toolbar_background">#FFFFFF</color>
+    <color name="color_app_version">#828282</color>
+    <color name="color_disable_1">#F7F7F7</color>
+    <color name="activity_background_light">#F3F4F7</color>
+    <color name="line_edit_text">#CBD9E7</color>
+    <color name="line_edit_text_selected">#F3F4F7</color>
+    <color name="alert_input">#FF4949</color>
+    <color name="gray_label">#9BB4CA</color>
+    <color name="subtitle_label">#72809D</color>
+    <color name="text_color_detail">#2F3A51</color>
+    <color name="color_gray_no_stock">#9BB4CA</color>
+    <color name="tag_product_background">#FF4949</color>
+
+    <!-- Buttons -->
+
+    <color name="btn_disabled">#EAECF0</color>
+    <color name="btn_facebook">#4267B2</color>
+    <color name="btn_facebook_pressed">#3b5ca0</color>
+    <color name="btn_apple">#2F3A51</color>
+    <color name="btn_apple_pressed">#2a3448</color>
+    <color name="btn_google">#FFFFFF</color>
+    <color name="btn_google_pressed">#e5e5e5</color>
+    <color name="btn_primary">#1B8F43</color>
+    <color name="btn_primary_pressed">#18803c</color>
+    <color name="btn_primary_text">#FFFFFF</color>
+    <color name="btn_primary_text_disabled">#9BB4CA</color>
+    <color name="btn_secondary">#FFFFFF</color>
+    <color name="btn_secondary_pressed">#e5e5e5</color>
+    <color name="btn_secondary_text">#007CFF</color>
+    <color name="btn_secondary_text_disabled">#9BB4CA</color>
+    <color name="phone_verified">#5FC899</color>
+    <color name="phone_verified_bg">#CCFFFFFF</color>
+    <color name="green_notification">#5FC899</color>
+    <!-- EditText  -->
+    <color name="edt_default_text">#2F3A51</color>
+    <color name="edt_default_hint">#9BB4CA</color>
+    <color name="edt_default_line">#CBD9E7</color>
+
+    <!-- Links -->
+
+    <color name="link_disabled">#EAECF0</color>
+    <color name="link">#007CFF</color>
+    <color name="link_pressed">#006fe5</color>
+    <color name="snackbar_bg">#72809D</color>
+
+    <!-- PickerPopupWindow -->
+    <color name="picker_background">#4D000000</color>
+
+    <!-- LoopView -->
+    <color name="loopview_top_bottom_text">#9BB4CA</color>
+    <color name="loopview_center_text">#2F3A51</color>
+
+    <!-- DatePicker -->
+
+    <!-- CheckBox -->
+    <color name="checkbox_stroke">#CBD9E7</color>
+    <color name="checkbox_background">#007CFF</color>
+    <color name="checkbox_text">#72809D</color>
+
+    <!-- Contentful list content -->
+    <color name="contentful_divider">#f2f2f2</color>
+
+    <!-- Tag Checkout -->
+    <color name="tag_selected">#1B8F43</color>
+    <color name="tag_unselected">#f0f0f0</color>
+    <color name="tag_text_selected">#fff</color>
+    <color name="tag_text_unselected">#9C9C9C</color>
+
+    <color name="content_fragment">#F3F4F6</color>
+    <color name="primary_blue">#007CFF</color>
+    <color name="divider">#EAECF0</color>
+    <color name="apha_red">#1AFF4949</color>
+    <!-- MarketPlace Active Order -->
+    <color name="active_order_market_description">#787878</color>
+    <color name="active_order_market_message">#616161</color>
+    <color name="active_order_market_delivery_date">#38B96A</color>
+    <color name="active_order_market_header">#CACACA</color>
+    <color name="active_order_background_list">#42BF7B</color>
+
+    <!-- PricesView -->
+    <color name="pv_text_crossed_out_price">#72809D</color>
+    <color name="pv_text_promotional_price">#405261</color>
+    <color name="pv_text_specific_discount_price">#1D2B36</color>
+
+    <!-- PromotionView -->
+    <color name="prv_text_title">#00B2FD</color>
+    <color name="prv_text_description">#737373</color>
+
+    <!-- SavingsView -->
+    <color name="sv_text_regular">#4A4A4A</color>
+    <color name="sv_text_disclaimer">#B2B2B2</color>
+    <color name="sv_text_label">#CD0B0F</color>
+
+    <!-- Totals History -->
+    <color name="historical_div_content">#EFEFEF</color>
+    <color name="total_history">#80CBF1F0</color>
+    <color name="total_history_empty">#00000000</color>
+
+    <!-- Cart Gondolas -->
+    <color name="gondola_cart_content">#F3F4F7</color>
+
+    <color name="green_inka">#1B8F43</color>
+    <color name="gray_button">@color/gray</color>
+    <color name="red_warning_light">#1Aff0000</color>
+    <color name="pink">#FF3B72</color>
+    <color name="color_detail_product_text">#72809D</color>
+    <color name="semi_transparent_black">#80000000</color>
+    <color name="semi_transparent_white">#CCFFFFFF</color>
+
+    <color name="color_toolbar_title">#2F3A51</color>
+    <color name="color_toolbar_div">#EAECF0</color>
+    <color name="text_content">#2F3A51</color>
+
+
+
+    <!-- Taxi -->
+    <color name="app_taxi_colorPrimary">#F7CE00</color>
+    <color name="app_taxi_colorPrimaryDark">#E6C312</color>
+    <color name="app_taxi_colorPrimaryLight">#FFD500</color>
+
+    <color name="app_taxi_colorAccent">#302D2D</color>
+    <color name="app_taxi_colorAccentDark">#292727</color>
+    <color name="app_taxi_colorAccentLight">#383535</color>
+
+    <color name="app_taxi_grey_very_hard">#7D7D7D</color>
+    <color name="app_taxi_grey_hard">#96989A</color>
+    <color name="app_taxi_grey_medium">#BDBFC1</color>
+    <color name="app_taxi_grey_soft">#F5F5F5</color>
+    <color name="app_taxi_grey_dark">#262626</color>
+
+    <color name="app_taxi_grey_bg">#EBEFF0</color>
+
+    <color name="app_taxi_grey_text">#222D31</color>
+    <color name="app_taxi_price_color">#8BC34A</color>
+
+    <color name="app_taxi_ongoing_color">#F7CE00</color>
+    <color name="app_taxi_finished_color">#8BC34A</color>
+    <color name="app_taxi_canceled_color">#96989A</color>
+
+</resources>

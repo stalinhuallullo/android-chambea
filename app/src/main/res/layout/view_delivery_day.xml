@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/picker_background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_popup_window"
+        android:padding="10dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/lbl_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/multi_bold"
+            android:text="Día de entrega"
+            android:textColor="@color/edt_default_text"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@null"
+            android:padding="8dp"
+            android:src="@drawable/ic_baseline_close_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvItem"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lbl_title"
+            app:layout_goneMarginStart="20dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <LinearLayout
+            android:id="@+id/ln_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/rvItem">
+
+            <TextView
+                android:id="@+id/txt__monday"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/shape_circle_gray"
+                android:fontFamily="@font/multi_bold"
+                android:gravity="center"
+                android:text="L"
+                android:textColor="@color/subtitle_label"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_tuesday"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/shape_circle_gray"
+                android:fontFamily="@font/multi_bold"
+                android:gravity="center"
+                android:text="M"
+                android:textColor="@color/subtitle_label"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_wednesday"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/shape_circle_gray"
+                android:fontFamily="@font/multi_bold"
+                android:gravity="center"
+                android:text="M"
+                android:textColor="@color/subtitle_label"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_thursday"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/shape_circle_gray"
+                android:fontFamily="@font/multi_bold"
+                android:gravity="center"
+                android:text="J"
+                android:textColor="@color/subtitle_label"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_row_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent "
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ln_row_1">
+
+            <TextView
+                android:id="@+id/txt_friday"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/shape_circle_gray"
+                android:fontFamily="@font/multi_bold"
+                android:gravity="center"
+                android:text="V"
+                android:textColor="@color/subtitle_label"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_saturday"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="16sp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/shape_circle_gray"
+                android:fontFamily="@font/multi_bold"
+                android:gravity="center"
+                android:text="S"
+                android:textColor="@color/subtitle_label"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_sunday"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/shape_circle_gray"
+                android:fontFamily="@font/multi_bold"
+                android:gravity="center"
+                android:text="D"
+                android:textColor="@color/subtitle_label"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/v_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/divider"
+            app:layout_constraintTop_toBottomOf="@id/ln_row_2" />
+
+        <LinearLayout
+            android:id="@+id/lnDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/v_divider">
+
+            <ImageView
+                android:id="@+id/img_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_calendar_rc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_message_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/multi_bold"
+                    android:text="Selecciona un día de la semana"
+                    android:textColor="@color/btn_secondary_text"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@+id/img_1"
+                    app:layout_constraintTop_toTopOf="@+id/img_1" />
+
+                <TextView
+                    android:id="@+id/txt_message_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Selecciona un día de la semana"
+                    android:textColor="@color/edt_default_hint"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@+id/img_1"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_message_1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_acept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/selector_button_corner_green"
+            android:enabled="false"
+            android:fontFamily="@font/multi_bold"
+            android:text="@string/accept"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@+id/lnDate" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Chambea</string>
+    <string name="header_name">TRANSPORTE</string>
+    <string name="google_maps_key">AIzaSyAWQTkVsfufzU2PpnKVASuRFCx7nY6HG98</string>
+
+    <string name="login_facebook">Ingresa con Facebook</string>
+    <string name="login_google">Ingresa con Google</string>
+    <string name="login_apple">Ingresa con Apple</string>
+    <string name="login_anonimo">Comprar sin registrarse - Web</string>
+    <string name="desarrollado_por_grupo_percy">Desarrollado por GRUPO PERCY - Web</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="retry">Reintentar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="error_network_title">Error de conexión</string>
+    <string name="error_network_message">Revisa tu conexión a internet y vuelve a intentarlo.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_available">Actualización</string>
+    <string name="session_expired_title">Sesión expirada</string>
+    <string name="session_expired_message">Su sesión ha expirado, por favor vuelva a iniciar sesión</string>
+
+    <!-- Alerts messages -->
+    <string name="alert_error_button_accept">Aceptar</string>
+    <string name="alert_error_service_500_title">Oops, algo salió mal</string>
+    <string name="alert_error_service_500_message">Ocurrió un error en nuestro sistema. Por favor, vuelve a intentarlo nuevamente.</string>
+    <string name="alert_error_service_500_message_register_login">Ocurrió un error en nuestro sistema mientras estábamos creando tu cuenta. Por favor, vuelve a intentarlo nuevamente.</string>
+    <string name="alert_error_service_session_expired">Su sesión a expirado, por favor vuelve a iniciar sesión.</string>
+
+    <!--menu title-->
+    <string name="title_profile">Perfil</string>
+    <string name="title_history">Historial</string>
+    <string name="title_notification">Notification</string>
+    <string name="title_payment">Metodo de pago</string>
+    <string name="title_help">Centro de ayuda</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="title_about">Acerca de nosotros</string>
+    <string name="title_log_out">Cerrar Sesión</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="add">Agregar</string>
+    <string name="message_coverage">Sin covertura</string>
+    <string name="pick_up_place">Lugar de recojo</string>
+    <string name="place_of_unloading">Lugar de descargo</string>
+    <string name="every">%s %s</string>
+    <string name="every_duration">%s %s</string>
+    <string name="default_text_day_complete">Fecha del servicio %s</string>
+
+
+    <!-- Facebook -->
+    <!-- Value from product flavor: cachuelo -->
+    <string name="facebook_app_id" translatable="false">2541256246013885</string>
+
+
+    <string-array name="locations">
+        <item>Taylor Swift</item>
+        <item>The Army Museum, Paris</item>
+        <item>Le Centre Pompidou, Paris</item>
+        <item>Eiffel Tower, Paris</item>
+        <item>Pont Alexandre III, Paris</item>
+        <item>Paris Dauphine University</item>
+        <item>Jeu de Paume, Paris</item>
+        <item>Homme Museum, Paris</item>
+        <item>Louis Vuitton Foundation</item>
+        <item>Le Palais des Congres, Paris</item>
+        <item>Place du Trocadero, Paris</item>
+        <item>The Dome of Paris</item>
+        <item>Place de la Bastille, Paris</item>
+    </string-array>
+
+    <integer-array name="ride_image">
+        <item>@drawable/furgoneta_sm</item>
+        <item>@drawable/furgon_menos_de_4_tl</item>
+        <item>@drawable/furgon_mas_de_5_tl</item>
+        <item>@drawable/furgon_camio</item>
+    </integer-array>
+    <string-array name="ride_name">
+        <item>Furgoneta</item>
+        <item>Furgon</item>
+        <item>Camion</item>
+    </string-array>
+    <string-array name="ride_price">
+        <item>Disponible</item>
+        <item>Disponible</item>
+        <item>Disponible</item>
+    </string-array>
+    <string-array name="ride_pax">
+        <item>1&#8211;4</item>
+        <item>1&#8211;6</item>
+        <item>1&#8211;3</item>
+    </string-array>
+    <string-array name="ride_duration">
+        <item>12</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+</resources>

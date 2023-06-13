@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomButton">
+        <attr name="typeFontButton">
+            <enum name="Regular" value="0" />
+            <enum name="Bold" value="1" />
+        </attr>
+        <attr name="ButtonFont" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CustomTextView">
+        <attr name="typeFontText">
+            <enum name="Regular" value="0" />
+            <enum name="Bold" value="1" />
+        </attr>
+        <attr name="textViewFont" format="reference" />
+    </declare-styleable>
+
+    <!-- CustomItem -->
+    <declare-styleable name="CustomItem">
+        <attr name="enableButton" format="boolean" />
+        <attr name="titleFont" format="reference" />
+        <attr name="textTitle" format="string" />
+        <attr name="subTextTitle" format="string" />
+        <attr name="arrowVisible" format="boolean" />
+        <attr name="iconRigthVisible" format="boolean" />
+        <attr name="arrow" format="reference" />
+        <attr name="titleColor" format="color" />
+        <attr name="iconRigth" format="reference" />
+        <attr name="subTitleColor" format="color" />
+        <attr name="iconleft" format="reference" />
+        <attr name="isNew" format="boolean" />
+        <attr name="tag" format="string" />
+
+    </declare-styleable>
+
+    <!-- CustomItem big -->
+    <declare-styleable name="CustomItemBig">
+        <attr name="itemEnabled" format="boolean" />
+        <attr name="itemTitle" format="string" />
+        <attr name="itemText" format="string" />
+        <attr name="subItemText" format="string" />
+        <attr name="isDetail" format="boolean" />
+        <attr name="iconDown" format="reference" />
+        <attr name="tagItem" format="string" />
+    </declare-styleable>
+</resources>

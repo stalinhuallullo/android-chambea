@@ -1,0 +1,571 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-11-26 21:38:11",
+    "containerVersion": {
+        "path": "accounts/3050880298/containers/32261388/versions/3",
+        "accountId": "3050880298",
+        "containerId": "32261388",
+        "containerVersionId": "3",
+        "name": "Deleting unused elements",
+        "container": {
+            "path": "accounts/3050880298/containers/32261388",
+            "accountId": "3050880298",
+            "containerId": "32261388",
+            "name": "Mobile Android",
+            "publicId": "GTM-PJVF3R9",
+            "usageContext": [
+                "ANDROID_SDK_5"
+            ],
+            "fingerprint": "1598065616587",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/3050880298/containers/32261388/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "tagId": "9",
+                "name": "UA - Screen view",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_SCREENVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{UA Property Settings}}"
+                    }
+                ],
+                "fingerprint": "1598065960648",
+                "firingTriggerId": [
+                    "8"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "tagId": "14",
+                "name": "UA - Ecommerce",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "{{parameter - eventCategory}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "readDataFrom",
+                        "value": "FIREBASE_EVENT_DATA"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{UA Property Settings}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendFirebaseCampaignData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{parameter - eventAction}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{parameter - eventLabel}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "true"
+                    }
+                ],
+                "fingerprint": "1598065933470",
+                "firingTriggerId": [
+                    "12"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "tagId": "17",
+                "name": "UA - Event",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "{{parameter - eventCategory}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{UA Property Settings}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendFirebaseCampaignData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{parameter - eventAction}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{parameter - eventLabel}}"
+                    }
+                ],
+                "fingerprint": "1598065945434",
+                "firingTriggerId": [
+                    "16"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "triggerId": "8",
+                "name": "Event - Screen view",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "screen_view"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1598065809752"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "triggerId": "12",
+                "name": "Event - Ecommerce",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "view_item_list|view_search_results|select_item|view_item|add_to_cart|remove_from_cart|view_cart|begin_checkout|add_to_wishlist|add_shipping_info|add_payment_info|purchase|refund"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1598065809754"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "triggerId": "16",
+                "name": "Event - All",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "ui_|error_|search_|pageview"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1598065809757"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "variableId": "3",
+                "name": "parameter - userID",
+                "type": "md",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventType",
+                        "value": "CUSTOM"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "key",
+                        "value": "user_id"
+                    }
+                ],
+                "fingerprint": "1598065809750"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "variableId": "4",
+                "name": "parameter - hashID",
+                "type": "md",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventType",
+                        "value": "CUSTOM"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "key",
+                        "value": "hash_id"
+                    }
+                ],
+                "fingerprint": "1598065809751"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "variableId": "5",
+                "name": "parameter - hashEmail",
+                "type": "md",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventType",
+                        "value": "CUSTOM"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "key",
+                        "value": "hash_email"
+                    }
+                ],
+                "fingerprint": "1598065809751"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "variableId": "6",
+                "name": "parameter - plataforma",
+                "type": "md",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventType",
+                        "value": "CUSTOM"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "key",
+                        "value": "plataforma"
+                    }
+                ],
+                "fingerprint": "1598065809751"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "variableId": "10",
+                "name": "parameter - eventCategory",
+                "type": "md",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventType",
+                        "value": "CUSTOM"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "key",
+                        "value": "event_category"
+                    }
+                ],
+                "fingerprint": "1598065809754"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "variableId": "11",
+                "name": "parameter - eventAction",
+                "type": "md",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventType",
+                        "value": "CUSTOM"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "key",
+                        "value": "event_action"
+                    }
+                ],
+                "fingerprint": "1598065809754"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "variableId": "13",
+                "name": "parameter - eventLabel",
+                "type": "md",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventType",
+                        "value": "CUSTOM"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "key",
+                        "value": "event_label"
+                    }
+                ],
+                "fingerprint": "1598065809755"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "variableId": "18",
+                "name": "UA Property Settings",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "collectAdid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "dimension",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{parameter - hashEmail}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{parameter - hashID}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{parameter - userID}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "17"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{parameter - plataforma}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "UA-117750347-1"
+                    }
+                ],
+                "fingerprint": "1606413598017"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "variableId": "20",
+                "name": "parameter - transactionID",
+                "type": "md",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventType",
+                        "value": "CUSTOM"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "key",
+                        "value": "transaction_id"
+                    }
+                ],
+                "fingerprint": "1606148644025"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "type": "APP_VERSION_NAME",
+                "name": "App Version Name"
+            },
+            {
+                "accountId": "3050880298",
+                "containerId": "32261388",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            }
+        ],
+        "fingerprint": "1606426638962",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/3050880298/containers/32261388/versions/3?apiLink=version"
+    }
+}
